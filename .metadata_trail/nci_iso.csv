@@ -1,0 +1,52 @@
+Field,Value
+Title*,Numerical Modeling of Earthquake Cycles Based On Navier-Stokes Equations With Viscoelastic-Plasticity Rheology
+Dataset version*,
+Abstract*,"Visco-elastic-plastic modeling approaches for long-term tectonic deformation assume that
+co-seismic fault displacement can be integrated over 1000s–10,000s years (tens of earthquake cycles) with the
+appropriate failure law, and that short-timescale fluctuations in the stress field due to individual earthquakes
+have no effect on long-term behavior. Models of the earthquake rupture process generally assume that the
+tectonic (long-range) stress field or kinematic boundary conditions are steady over the course of multiple
+earthquake cycles. This study is aimed to fill the gap between long-term and short-term deformations by
+modeling earthquake cycles with the rate-and-state frictional (RSF) relationship in Navier-Stokes equations.
+We reproduce benchmarks at the earthquake timescale to demonstrate the effectiveness of our approach. We
+then discuss how these high-resolution models degrade if the time-step cannot capture the rupture process
+accurately and, from this, infer when it is important to consider coupling of the two timescales and the level of
+accuracy required. To build upon these benchmarks, we undertake a generic study of a thrust fault in the crust
+with a prescribed geometry. It is found that lower crustal rheology affects the periodic time of characteristic
+earthquake cycles and the inter-seismic, free-surface deformation rate. In particular, the relaxation of the
+surface of a cratonic region (with a relatively strong lower crust) has a characteristic double-peaked uplift
+profile that persists for thousands of years after a major slip event. This pattern might be diagnostic of active
+faults in cratonic regions."
+Topic category*,geoscientificInformation
+Field of research (FOR)*,https://linked.data.gov.au/def/anzsrc-for/2020/370401
+License*,Creative Commons Attribution 4.0 International
+Dataset lineage information*,"The numerical modeling method for long-term tectonic deformations
+averages out the co-seismic fault displacement into thousands to tens of thousands of years, and neglects
+near-fault damages of earthquakes; therefore, it may not be able to decipher fault activities in detail. Software
+simulating earthquake rupture dynamics may not have a good estimation of background stress due to longterm
+tectonic deformations. In this study, we develop a numerical framework that embeds earthquake rupture
+dynamics into a long-term tectonic deformation model by adding inertial terms and using highly adaptive
+time-stepping that can capture deformation at plate-motion rates as well as individual earthquakes. The inertia
+term, which is neglected in long-term large-scale modeling methods, is considered to simulate the dynamic
+rupture processes. The rate-and-state frictional relationship for co-seismic fault slip is implemented in
+viscoelastic-plastic earth. Benchmarks of viscous flow, viscoelastic wave propagation and earthquake cycle
+simulations are tested. Based on these benchmarks, we undertake a generic study of a thrust fault in crust.
+We find that lower crustal rheology affects the periodic time of characteristic large earthquake cycles and the
+inter-seismic free surface movement. Cratons with a relatively strong lower crust due to lower temperature
+remain two peaks in surface uplift profiles around the fault zone for thousands of years after one characteristic
+earthquake, which help identify active faults in cratons."
+Dataset format*,
+Dataset status,completed
+Maintenance frequency*,as needed
+Temporal extents* (if applicable),
+Spatial extents* (if applicable),
+Owner* (if applicable),
+Credit,
+Supplemental or supporting material,
+Local NCI file path,/g/data/nm08/MATE/yang-2023-eqcycles
+DOI (NCI Internal Field),
+Keyword/s,"Earthquake Cycles, Navier-Stokes, Viscoelastic-Plasticity, Cratonic Earthquakes"
+Author 1,"Yang, Haibin, Unknown, Unknown, https://orcid.org/0000-0002-8628-3704"
+Author 2,"Moresi, Louis-Noel, Unknown, Unknown, https://orcid.org/0000-0003-3685-174X"
+Author 3,"Weng, Huihui, Unknown, Unknown, https://orcid.org/0000-0002-2936-2342"
+Author 4,"Giordani, Julian, Unknown, Unknown, https://orcid.org/0000-0003-4515-9296"
